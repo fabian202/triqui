@@ -1,0 +1,31 @@
+body {
+	font-family: 'Signika Negative', sans-serif;
+}
+
+#container {
+	width: 180px;
+}
+
+#container .play-area{
+   border: 1px solid #000000;
+    float: left;
+    height: 30px;
+    margin: 3px;
+    padding-top: 15px;
+    text-align: center;
+    width: 50px;
+    cursor: pointer;
+}
+.clearfix {
+	clear: both;
+}
+
+.play-X {
+	color: red;
+}
+.play-O {
+	color: blue;
+}
+.play-area:hover {
+	background-color: #E8E8FF;
+}
